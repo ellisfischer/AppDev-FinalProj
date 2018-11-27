@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		77635AFB21ACA72B00B1DDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77635AFA21ACA72B00B1DDC7 /* AppDelegate.swift */; };
-		77635AFD21ACA72B00B1DDC7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77635AFC21ACA72B00B1DDC7 /* GameScene.sks */; };
 		77635AFF21ACA72B00B1DDC7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77635AFE21ACA72B00B1DDC7 /* Actions.sks */; };
 		77635B0121ACA72B00B1DDC7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77635B0021ACA72B00B1DDC7 /* GameScene.swift */; };
 		77635B0321ACA72B00B1DDC7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77635B0221ACA72B00B1DDC7 /* GameViewController.swift */; };
@@ -17,6 +16,7 @@
 		77635B0B21ACA72D00B1DDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77635B0921ACA72D00B1DDC7 /* LaunchScreen.storyboard */; };
 		77635B1621ACA72D00B1DDC7 /* PaperTossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77635B1521ACA72D00B1DDC7 /* PaperTossTests.swift */; };
 		77635B2121ACA72D00B1DDC7 /* PaperTossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77635B2021ACA72D00B1DDC7 /* PaperTossUITests.swift */; };
+		77635B2F21ACA7DD00B1DDC7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77635B2E21ACA7DD00B1DDC7 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		77635AF721ACA72B00B1DDC7 /* PaperToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77635AFA21ACA72B00B1DDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77635AFC21ACA72B00B1DDC7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		77635AFE21ACA72B00B1DDC7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		77635B0021ACA72B00B1DDC7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		77635B0221ACA72B00B1DDC7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		77635B1C21ACA72D00B1DDC7 /* PaperTossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperTossUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77635B2021ACA72D00B1DDC7 /* PaperTossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperTossUITests.swift; sourceTree = "<group>"; };
 		77635B2221ACA72D00B1DDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77635B2E21ACA7DD00B1DDC7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				77635AFA21ACA72B00B1DDC7 /* AppDelegate.swift */,
-				77635AFC21ACA72B00B1DDC7 /* GameScene.sks */,
+				77635B2E21ACA7DD00B1DDC7 /* GameScene.sks */,
 				77635AFE21ACA72B00B1DDC7 /* Actions.sks */,
 				77635B0021ACA72B00B1DDC7 /* GameScene.swift */,
 				77635B0221ACA72B00B1DDC7 /* GameViewController.swift */,
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77635B0621ACA72B00B1DDC7 /* Main.storyboard in Resources */,
-				77635AFD21ACA72B00B1DDC7 /* GameScene.sks in Resources */,
+				77635B2F21ACA7DD00B1DDC7 /* GameScene.sks in Resources */,
 				77635B0821ACA72D00B1DDC7 /* Assets.xcassets in Resources */,
 				77635B0B21ACA72D00B1DDC7 /* LaunchScreen.storyboard in Resources */,
 				77635AFF21ACA72B00B1DDC7 /* Actions.sks in Resources */,
