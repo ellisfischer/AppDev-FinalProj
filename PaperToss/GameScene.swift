@@ -249,7 +249,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
     
     
     func fire(){
-        
+         
         let xChange = t.end.x - t.start.x
         
         let angle = (atan(xChange / (t.end.y - t.start.y)) * 180 / pi)
